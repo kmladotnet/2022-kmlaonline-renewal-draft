@@ -1,0 +1,136 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+@font-face{
+	font-family: "ridibatang";
+	src: url("../sources/RIDIBatang.otf");
+}
+
+body{
+  margin-top: 0;
+  background:#0C3C60 url('../sources/kmlaonlinebackground.png') no-repeat;
+  background-size: cover;
+}
+
+a {
+	text-decoration: none;
+}
+
+li {
+	list-style: none;
+}
+ 
+.nav-links{
+	font-family: 'ridibatang', sans-serif;
+	width: 400px;
+	height: 50px;
+	font-style: normal;
+	font-weight: normal;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	justify-content: space-between;
+	background-color: transparent;
+	color: #000;
+	margin: 20px auto;
+	padding: ;
+}
+
+.flip li{
+  display: block;
+  height: 100%;
+  font-size: 20px;
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+  padding: auto;
+  width: auto;
+}
+
+.nav-links div {
+	color: #000;
+	font-size: 24px;
+	color: #fff; 
+}
+
+.flip {
+	display: flex;
+	gap: 20px;
+	font-size: 15px;
+}
+
+.kmlaonlinetitle {
+	margin-top: 100px;
+	margin-left: auto;
+	width: auto;
+	height: auto;
+	text-align: center;
+	top: 368px;
+	font-family: Abhaya Libre ExtraBold;
+	font-style: normal;
+	font-weight: 800;
+	font-size: 96px;
+	line-height: 77px;
+	color: #FFFFFF;
+}
+
+.rectangle {
+	width: 70%;
+	margin: 10px auto;
+	height: 2px;
+	background: #fff;
+}
+
+.profile {
+	margin-left: 2%;
+	margin-top: 2%;
+	margin-right: 85%;
+  width: 3%;
+	height: 3%;
+}
+
+.search {
+	width: 2%;
+	height: 2%;
+	margin-right: 2%;
+}
+
+.noti {
+	width: 2%;
+	height: 2%;
+	margin-right: 2%;
+}
+
+.buttons {
+  display: flex;
+  padding: 40px;
+  width: 100%;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.buttons > div > a {
+	font-family: 'ridibatang', sans-serif;
+	padding: 20px 40px 20px 40px;
+  font-size: 20px;
+  text-decoration: none;
+  color: #fff;
+  border: 2.5px solid #fff;
+  box-sizing: border-box;
+  text-align: left;
+  margin: 20px;
+}
+
+.buttons > div > a:hover {
+  color : #0C3C60;
+  padding: 20px 40px 20px 40px;
+  background-color: #fff;
+}

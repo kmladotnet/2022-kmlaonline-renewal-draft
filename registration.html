@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Registration - 큼온</title>
+  <link rel="shortcut icon" type="image/x-icon" href="sources/kmlaonline logo two blue.png">
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="css/registration.css">
+  <link href="https://fonts.googleapis.com/earlyaccess/notosanskr.css" rel="stylesheet">
+</head>
+<body>
+  <body link = "white" alink = "white" vlink = "white">
+  <div class="login-form">
+  <form>
+    <h2 class = "regi">회원가입</h2>
+    <input type="text" name="name" class="text-field" placeholder="이름" required>
+    <select name="waver" required class = "selectors">
+      <option value="">기수</option>
+      <option value="26wav">26</option>
+      <option value="25wav">25</option>
+      <option value="24wav">24</option>
+    </select>
+    <input type="number" name="schoolid" class="text-field" placeholder="학번" required>
+    <input type="text" name="id" class="text-field" placeholder="아이디" required>
+    <input type="password" name="password" class="text-field" placeholder="비밀번호" required>
+    <input type="password" name="password_check" class="text-field" placeholder="비밀번호 확인" required>
+    <select name="gender" required class = "selectors">
+      <option value="">성별</option>
+      <option value="men">남자</option>
+      <option value="women">여자</option>
+      <option value="genderetc">기타</option>
+    </select>
+    <!-- <input type="date" name="birthday" class="text-field" value="생일" required> -->
+    <input placeholder="생일" class="text-field" type="text" onfocus="(this.type='date')" id="birthday">
+
+    <input type="email" name="email" class="text-field" placeholder="이메일 (example@xyz.com)" required><br>
+    <input type="tel" name="phonenumber" class="text-field" pattern = "[0-9]{3}-[0-9]{4}-[0-9]{4}" placeholder="전화번호" required>
+    <input type="text" name="interest" class="text-field" placeholder="관심사/전공" required>
+    <input type="text" name="words" class="text-field" placeholder="소개글" required>
+    <div class = 'scrollBox'>
+      <div class="scrollText" tabindex="0">
+        <strong>1. 개인정보의 수집항목</strong><br>
+        KMLA ONLINE의 제작자, 관리자(이하 KMLA .NET)는 홈페이지 회원 가입 시 회원 서비스 제공에 필요한 최소한의 정보를 수집하고 있으며 개인정보파일에 수집되는 항목은 다음과 같습니다.<br>
+        - 이름, 아이디, 연락처, 이메일, 생년월일<br><br>
+        <strong>2. 개인정보 수집목적</strong><br>
+        KMLA .NET이 제공하는 맞춤화된 서비스(교내 컨텐츠 제공, 각종 편의기능 등) 및 개발(사전조사 및 만족도 설문조사 등)을 위해 수집합니다. KMLA .NET은 원칙적으로 이용자의 개인정보를 수집 및 이용 목적범위 내에서 처리하며, 이용자의 사전 동의 없이는 본래의 범위를 초과하여 처리하거나 제3자에게 제공하지 않습니다.<br><br>
+        가. 회원관리<br>
+        회원 맞춤 서비스 제공, 개인식별, 전체 서비스의 원활한 운영을 위한 관리, 회원탈퇴 의사 확인<br><br>
+        나. 고유서비스 이용 및 신규 개발<br>
+        예술경영지원센터에서 제공하는 컨설팅을 비롯한 각종 고유 서비스 제공의 필요 시, 신규 서비스 개발 시 의견수렴 및 안내<br><br>
+        3. 개인정보의 보유기간<br>
+        - 홈페이지 회원가입에 따라 수집된 개인정보 보유기간은 <span class="point">탈퇴 이전까지</span>입니다.<br><br>
+        4. 기타사항(거부할 권리 등)<br>
+        - 회원가입에 따른 개인정보의 수집, 이용, 제공에 대해 귀하께서 동의하신 내용은 언제든지 철회 또는 거부하실 수 있습니다. 이의 경우 회원탈퇴로 처리되며 동의철회(거부)는 「회원탈퇴」를 클릭하거나 개인정보관리담당(책임자)에게 서면, 전화, 이메일 등으로 연락하시면 즉시 개인정보의 삭제 및 파기 등 필요한 조치를 하겠습니다.<br>
+        - 개인정보제공 동의 거부에 의한 홈페이지 이용 제한<br>
+        <br><br>
+        기타 개인정보에 관한 상담 및 문의가 필요한 경우에는 개인정보침해신고센터 등으로 문의하실 수 있습니다.<br><br>
+        <div class="member_box">
+        • 한국인터넷진흥원 개인정보침해신고센터 (www.1336.or.kr / 118)<br>
+        • 정보보호마크인증위원회 (www.eprivacy.or.kr / 02-580-0533~4)<br>
+        • 경찰청 사이버테러대응센터 (www.ctrc.go.kr / 182)
+        </div>
+        <br>
+        <div class = "contacts">
+          &copy; 2021 KMLA .NET, KMLA ONLINE, 26th waver 김진호, 박승현, 김준범, 김유환.
+        </div>
+      </div>
+    </div>
+    <input type="submit" value="회원가입" class="submit-btn">
+  </form>
+  </div>
+</body>
+</html>
